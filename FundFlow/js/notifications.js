@@ -1,0 +1,1 @@
+function getUnreadNotifications(){return getFromStorage(STORAGE_KEYS.notifications,[]).filter(n=>!n.read);}

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>document.getElementById("sortFilter")?.addEventListener("change",renderCampaignResults));
